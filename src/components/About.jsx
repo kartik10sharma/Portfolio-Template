@@ -9,7 +9,7 @@ const ServiceCard = ({ index, title, icon }) => {
   return (
     <motion.div
       variants={fadeIn('right', 'spring', 0.5 * index, 0.75)}
-      className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px] shadow-card">
+      className="xs:w-[250px] w-full card-gradient p-[1px] rounded-[20px]">
       <div
         options={{
           max: 45,
@@ -37,12 +37,11 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        I am a third-year Artificial Intelligence and Machine Learning student at Guru Gobind Singh Indraprastha University, New Delhi. 
+        With expertise in AI-ML, cloud computing, and AR/VR technologies, I have worked on innovative projects like serverless pipelines, 
+        real-time emotion detection systems, and AR-enhanced learning tools. 
+        As a PR Lead for Tradophile Finance Society and a tech coordinator in IEEE, I bring leadership and technical skills to the table.
+         Passionate about crafting cutting-edge solutions, I am driven to solve real-world challenges through technology
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
